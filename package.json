@@ -1,10 +1,9 @@
 {
-  "name": "game-fe",
+  "name": "form",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Risk-taker0501.github.io/form",
-  "predeploy": "npm run build",
-  
+  "homepage": "https://Risk-taker0501.github.io",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,7 +11,7 @@
     "preview": "vite preview",
     "format": "prettier --write .",
     "deploy": "gh-pages -d build",
-    "type": "module"
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
