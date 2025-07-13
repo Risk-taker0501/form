@@ -8,8 +8,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/form/',
   build: {
-    outDir: 'build', // Change this from 'dist' to 'build'
+    outDir: 'build', // Change this from 'dist' to 'build',
+    emptyOutDir: true, // Add this to clear build directory
   },
   server: {
     host: true,
