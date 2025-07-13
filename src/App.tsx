@@ -84,7 +84,7 @@ export default function App() {
       >
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/form/" element={<Home />} />
           </Routes>
         </BrowserRouter>
       </MantineProvider>

@@ -2,7 +2,7 @@
   "name": "form",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Risk-taker0501.github.io/",
+  "homepage": "https://Risk-taker0501.github.io/form/",
   "type": "module",
   "scripts": {
     "dev": "vite",
