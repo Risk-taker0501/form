@@ -4,14 +4,15 @@
   "version": "0.0.0",
   "homepage": "https://Risk-taker0501.github.io/form",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "type": "module",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "deploy": "gh-pages -d build",
+    "type": "module"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
