@@ -8,6 +8,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  build: {
+    outDir: 'build', // Change this from 'dist' to 'build'
+  },
   server: {
     host: true,
     allowedHosts: ['.replit.dev']
